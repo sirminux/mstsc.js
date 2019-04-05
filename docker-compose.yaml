@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    mstsc:
+        build: .
+        environment:
+            - PORT=9250
+        ports: 
+            - 9250:9250
